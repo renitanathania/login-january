@@ -2,12 +2,14 @@ import React from "react";
 
 const Login = () => {
    return (
-    <div>
+    <div class="container rounded">
         <h1>Login</h1>
         <form action="login">
-            <input type="text" placeholder="Username"/>
-            <input type="password" placeholder="Password"/>
-            <button class="btn btn-primary center-block">Login</button>
+            <h4>Username</h4>
+            <input class ="rounded"type="text" placeholder="Enter Username"/>
+            <h4>Password</h4>
+            <input class ="rounded" type="password" placeholder="Enter Password"/>
+            <button class="btn-danger d-grid gap-2 col-3 mx-auto">Login</button>
         </form>
     </div>
    );
